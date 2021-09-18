@@ -1,0 +1,1285 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fafafa;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #fafafa;
+    z-index: 12;
+    position: fixed;
+}
+.logo-nav{
+    float: right;
+    right: 40px;
+    position: relative;
+    font-size: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 6px;
+    top: 3px;
+    cursor: pointer;
+    color: black;
+    z-index: 2;
+}
+.a{
+    text-decoration: none;
+}
+.m{
+    color: #21ab9e;
+}
+ul{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    left: 25%;
+    top: 6px;
+}
+ul li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: relative;
+}
+.a2{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: cursive;
+    text-transform: uppercase;
+    margin-left: 40px;
+    transition: 0.2s ease-in-out;
+}
+.a2:hover{
+    color: #21ab9e;
+    border-bottom: 2px solid #21ab9e;
+}
+#home{
+    color: #21ab9e;
+    border-bottom: 2px solid #21ab9e;
+}
+.join{
+    position: relative;
+    top: -41px;
+    left: 40px;
+    background: linear-gradient(90deg, #2bf8ff, #21ab9e);
+    background-size: 200%;
+    background-position-x: -40px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 40px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: cursive;
+    cursor: pointer;
+    color: #fafafa;
+    transition: 0.2s ease-in-out;
+}
+.join:hover{
+    box-shadow: 0 0 15px #21ab9d79;
+    background-position-x: -15px;
+}
+
+/* HOME PAGE */
+
+#home-page{
+    width: 100%;
+    height: 800px;
+}
+.home-photo{
+    width: 620px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+.my{
+    color: black;
+    font-family: cursive;
+    position: relative;
+    font-size: 38px;
+    top: 270px;
+    text-transform: uppercase;
+    float: right;
+    right: 340px;
+}
+.y{
+    color: #21ab9e;
+}
+.about{
+    color: rgb(94, 94, 94);
+    font-family: cursive;
+    font-size: 27px;
+    position: relative;
+    float: right;
+    right: 190px;
+    top: -240px;
+}
+.see-btn{
+    position: absolute;
+    background: #21ab9e;
+    color: #fafafa;
+    cursor: pointer;
+    padding: 7px 30px;
+    font-size: 23px;
+    font-family: cursive;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    right: 540px;
+    top: 500px;
+    letter-spacing: -1px;
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+}
+.huge-line{
+    background: #fafafa;
+    width: 180px;
+    height: 160px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: -50px;
+    left: -200px;
+    transition: 0.3s ease-in-out;
+    transform: rotate(-60deg);
+}
+.see-btn:hover .huge-line{
+    left: 290px;
+}
+.fas{
+    color: #21ab9e;
+    font-size: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 640px;
+    left: 790px;
+    transition: 0.4s ease-in-out;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.big-line{
+    background: #fafafa;
+    width: 100px;
+    height: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: -2px;
+    left: -100px;
+    transition: 0.4s ease-in-out;
+}
+.fas:hover .big-line{
+    left: 50px;
+}
+
+/* END OF HOME PAGE AND START SEC PAGE */
+
+.second-page{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: #f5f5f5;
+}
+.my-skills{
+    position: absolute;
+    color: #21ab9e;
+    left: 47%;
+    top: 80px;
+    font-size: 40px;
+    font-family: cursive;
+}
+.line-under-skills{
+    position: relative;
+    width: 150px;
+    height: 3px;
+    background: #21ab9e;
+    top: 145px;
+    left: 47%;
+}
+.circle1{
+    position: absolute;
+    top: 260px;
+    left: 290px;
+}
+.html{
+    position: absolute;
+    color: #21ab9e;
+    font-size: 40px;
+    font-family: cursive;
+    top: 57px;
+    left: 42px;
+}
+.percent-html{
+    position: absolute;
+    color: rgb(94, 94, 94);
+    font-size: 28px;
+    font-family: cursive;
+    top: 115px;
+    left: 68px;
+}
+.track{
+    stroke: rgba(128, 128, 128, 0.233);
+    stroke-width: 10px;
+    fill: none;
+}
+.progress{
+    fill: none;
+    stroke-width: 10px;
+    stroke: #21ab9e;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 30;
+}
+.circle2{
+    position: absolute;
+    top: 260px;
+    left: 580px;
+}
+.css{
+    position: absolute;
+    color: #21ab9e;
+    font-size: 40px;
+    font-family: cursive;
+    top: 55px;
+    left: 60px;
+}
+.percent-css{
+    position: absolute;
+    color: rgb(94, 94, 94);
+    font-size: 28px;
+    font-family: cursive;
+    top: 115px;
+    left: 69px;
+}
+.track2{
+    stroke: rgba(128, 128, 128, 0.233);
+    stroke-width: 10px;
+    fill: none;
+}
+.progress2{
+    fill: none;
+    stroke-width: 10px;
+    stroke: #21ab9e;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 30;
+}
+.circle3{
+    position: absolute;
+    top: 260px;
+    left: 870px;
+}
+.js{
+    position: absolute;
+    color: #21ab9e;
+    font-size: 40px;
+    font-family: cursive;
+    top: 55px;
+    left: 70px;
+}
+.percent-js{
+    position: absolute;
+    color: rgb(94, 94, 94);
+    font-size: 25px;
+    font-family: cursive;
+    top: 115px;
+    left: 36px;
+}
+.track3{
+    stroke: rgba(128, 128, 128, 0.233);
+    stroke-width: 10px;
+    fill: none;
+}
+.progress3{
+    fill: none;
+    stroke-width: 10px;
+    stroke: #21ab9e;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 570;
+}
+.circle4{
+    position: absolute;
+    top: 260px;
+    left: 1150px;
+}
+.ps{
+    position: absolute;
+    color: #21ab9e;
+    font-size: 40px;
+    font-family: cursive;
+    top: 55px;
+    left: 75px;
+}
+.percent-ps{
+    position: absolute;
+    color: rgb(94, 94, 94);
+    font-size: 25px;
+    font-family: cursive;
+    top: 115px;
+    left: 65px;
+}
+.track4{
+    stroke: rgba(128, 128, 128, 0.233);
+    stroke-width: 10px;
+    fill: none;
+}
+.progress4{
+    fill: none;
+    stroke-width: 10px;
+    stroke: #21ab9e;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 0;
+}
+.line-end{
+    width: 80%;
+    height: 2px;
+    background: rgb(94, 94, 94);
+    position: relative;
+    left: 10%;
+    top: 600px;
+    opacity: 0.2;
+}
+.circles{
+    position: relative;
+    left: -10px;
+}
+.skills-end{
+    color: rgb(94, 94, 94);
+    font-size: 32px;
+    font-family: cursive;
+    position: absolute;
+    top: 680px;
+    left: 29%;
+}
+.continue{
+    color: rgb(94, 94, 94);
+    position: absolute;
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    top: 750px;
+    left: 41%;
+    opacity: 0.2;
+}
+
+/* HERE END SEC PAGE STYLING AND START THIRD PAGE */
+
+.third-page{
+    width: 100%;
+    height: 800px;
+    background: #fafafa;
+    background-image: url(back-fixed.jpg);
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+}
+.my-projects{
+    position: absolute;
+    color: #fafafa;
+    font-size: 40px;
+    font-family: cursive;
+    top: 80px;
+    left: 46%;
+}
+.line-under-projects{
+    position: relative;
+    width: 210px;
+    height: 3px;
+    background: #fafafa;
+    top: 145px;
+    left: 46%;
+}
+.pack{
+    position: relative;
+    width: 800px;
+    top: 260px;
+    left: 400px;
+    box-shadow: 
+    9px 3px 15px rgba(0, 0, 0, 0.363),
+    -9px -3px 15px rgba(0, 0, 0, 0.363);
+    z-index: 3;
+}
+.mayol{
+    position: relative;
+    width: 400px;
+    top: 235px;
+    left: 350px;
+    box-shadow: 
+    9px 3px 15px rgba(0, 0, 0, 0.363),
+    -9px -3px 15px rgba(0, 0, 0, 0.363);
+}
+.absl{
+    position: absolute;
+    width: 400px;
+    top: 290px;
+    left: 40px;
+    box-shadow: 
+    9px 3px 15px rgba(0, 0, 0, 0.363),
+    -9px -3px 15px rgba(0, 0, 0, 0.363);
+}
+
+ /* HERE END THIRD PAGE STYLING AND START FOURTH PAGE */
+
+.fourth-page{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: #f5f5f5;
+}
+.my-clients{
+    color: #21ab9e;
+    position: absolute;
+    font-size: 40px;
+    font-family: cursive;
+    top: 80px;
+    left: 46%;
+}
+.caption{
+    color: rgb(94, 94, 94);
+    position: absolute;
+    top: 140px;
+    left: 40.5%;
+    font-size: 21px;
+    font-family: cursive;
+}
+.client1{
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background: #f5f5f5;
+    left: 180px;
+    top: 260px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+.line-big-client{
+    width: 250px;
+    height: 350px;
+    background: #21ab9e;
+    position: absolute;
+    left: -290px;
+    transition: 0.4s ease-in-out;
+}
+.client1:hover .line-big-client{
+    left: 300px;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    background: #f5f5f5;
+    box-shadow: 0 0 15px #fafafa;
+    left: 75px;
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    background-image: url(home-photo.png);
+    background-size: 100%;
+}
+.pointl{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    left: 15px;
+    top: 00px;
+    opacity: 0.1;
+    cursor: default;
+}
+.pointr{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    right: 15px;
+    top: 00px;
+    opacity: 0.1;
+    cursor: default;
+}
+.client-say1{
+    color: #21ab9e;
+    position: relative;
+    font-size: 32px;
+    font-family: cursive;
+    text-align: center;
+    top: 40px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.line-under-name{
+    width: 100px;
+    height: 2px;
+    position: relative;
+    background: #21ab9e;
+    left: 75px;
+    top: 50px;
+}
+.say1{
+    color: rgb(94, 94, 94);
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+
+.client2{
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background: #21ab9e;
+    left: 530px;
+    top: 300px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+.line-big-client2{
+    width: 250px;
+    height: 350px;
+    background: #fafafa;
+    position: absolute;
+    left: -290px;
+    transition: 0.4s ease-in-out;
+}
+.client2:hover .line-big-client2{
+    left: 300px;
+}
+.photo2{
+    width: 100px;
+    height: 100px;
+    background: #f5f5f5;
+    box-shadow: 0 0 15px #fafafa;
+    left: 75px;
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    background-image: url(home-photo.png);
+    background-size: 100%;
+}
+.pointl2{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    left: 15px;
+    top: 00px;
+    opacity: 0.2;
+    cursor: default;
+}
+.pointr2{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    right: 15px;
+    top: 00px;
+    opacity: 0.2;
+    cursor: default;
+}
+.client-say2{
+    color: #fafafa;
+    position: relative;
+    font-size: 32px;
+    font-family: cursive;
+    text-align: center;
+    top: 40px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.line-under-name2{
+    width: 100px;
+    height: 2px;
+    position: relative;
+    background: #fafafa;
+    left: 75px;
+    top: 50px;
+}
+.say2{
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+
+.client3{
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background: #f5f5f5;
+    left: 885px;
+    top: 260px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+.line-big-client3{
+    width: 250px;
+    height: 350px;
+    background: #21ab9e;
+    position: absolute;
+    left: -290px;
+    transition: 0.4s ease-in-out;
+}
+.client3:hover .line-big-client3{
+    left: 300px;
+}
+.photo3{
+    width: 100px;
+    height: 100px;
+    background: #f5f5f5;
+    box-shadow: 0 0 15px #fafafa;
+    left: 75px;
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    background-image: url(home-photo.png);
+    background-size: 100%;
+}
+.pointl3{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    left: 15px;
+    top: 00px;
+    opacity: 0.1;
+    cursor: default;
+}
+.pointr3{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    right: 15px;
+    top: 00px;
+    opacity: 0.1;
+    cursor: default;
+}
+.client-say3{
+    color: #21ab9e;
+    position: relative;
+    font-size: 32px;
+    font-family: cursive;
+    text-align: center;
+    top: 40px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.line-under-name3{
+    width: 100px;
+    height: 2px;
+    position: relative;
+    background: #21ab9e;
+    left: 75px;
+    top: 50px;
+}
+.say3{
+    color: rgb(94, 94, 94);
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+
+.client4{
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    background: #21ab9e;
+    left: 1240px;
+    top: 300px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+.line-big-client4{
+    width: 250px;
+    height: 350px;
+    background: #fafafa;
+    position: absolute;
+    left: -290px;
+    transition: 0.4s ease-in-out;
+}
+.client4:hover .line-big-client4{
+    left: 300px;
+}
+.photo4{
+    width: 100px;
+    height: 100px;
+    background: #f5f5f5;
+    box-shadow: 0 0 15px #fafafa;
+    left: 75px;
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    background-image: url(home-photo.png);
+    background-size: 100%;
+}
+.pointl4{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    left: 15px;
+    top: 00px;
+    opacity: 0.2;
+    cursor: default;
+}
+.pointr4{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    right: 15px;
+    top: 00px;
+    opacity: 0.2;
+    cursor: default;
+}
+.client-say4{
+    color: #fafafa;
+    position: relative;
+    font-size: 32px;
+    font-family: cursive;
+    text-align: center;
+    top: 40px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.line-under-name4{
+    width: 100px;
+    height: 2px;
+    position: relative;
+    background: #fafafa;
+    left: 75px;
+    top: 50px;
+}
+.say4{
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+
+/* HERE END FOURTH PAGE STYLING AND START FIFTH PAGE */
+
+.fifth-page{
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    background: #fafafa;
+}
+.contact-me{
+    color: #21ab9e;
+    position: absolute;
+    font-family: cursive;
+    font-size: 40px;
+    top: 80px;
+    left: 44%;
+}
+.line-under-contact{
+    width: 260px;
+    height: 3px;
+    background: #21ab9e;
+    position: relative;
+    top: 150px;
+    left: 44%;
+}
+.first-name{
+    color: rgb(94, 94, 94);
+    font-size: 18px;
+    font-family: cursive;
+    position: absolute;
+    top: 260px;
+    left: 30%;
+}
+.first-name::after{
+    content: "*";
+    color: #21ab9e;
+    font-size: 15px;
+    font-family: cursive;
+    top: 0px;
+    right: -10px;
+    position: absolute;
+}
+.first{
+    position: absolute;
+    top: 300px;
+    left: 30%;
+    background: #fafafa;
+    color: #21ab9e;
+    outline: none;
+    border: 1px solid #21ab9e;
+    border-radius: 7px;
+    font-size: 23px;
+    width: 280px;
+    padding: 7px 20px;
+    font-family: cursive;
+    box-shadow:
+    5px -4px 15px rgba(0, 0, 0, 0.123),
+    -5px 4px 15px rgb(255, 255, 255),
+    inset -5px 4px 15px rgb(255, 255, 255),
+    inset 5px -4px 15px rgba(0, 0, 0, 0.090);
+}
+.last-name{
+    color: rgb(94, 94, 94);
+    font-size: 18px;
+    font-family: cursive;
+    position: absolute;
+    top: 260px;
+    left: 55%;
+}
+.last-name::after{
+    content: "*";
+    color: #21ab9e;
+    font-size: 15px;
+    font-family: cursive;
+    top: 0px;
+    right: -10px;
+    position: absolute;
+}
+.last{
+    position: absolute;
+    top: 300px;
+    left: 55%;
+    background: #fafafa;
+    color: #21ab9e;
+    outline: none;
+    border: 1px solid #21ab9e;
+    border-radius: 7px;
+    font-size: 23px;
+    width: 280px;
+    padding: 7px 20px;
+    font-family: cursive;
+    box-shadow:
+    5px -4px 15px rgba(0, 0, 0, 0.123),
+    -5px 4px 15px rgb(255, 255, 255),
+    inset -5px 4px 15px rgb(255, 255, 255),
+    inset 5px -4px 15px rgba(0, 0, 0, 0.090);
+}
+
+.email-ad{
+    color: rgb(94, 94, 94);
+    font-size: 18px;
+    font-family: cursive;
+    position: absolute;
+    top: 410px;
+    left: 43%;
+}
+.email-ad::after{
+    content: "*";
+    color: #21ab9e;
+    font-size: 15px;
+    font-family: cursive;
+    top: 0px;
+    right: -10px;
+    position: absolute;
+}
+.email{
+    position: absolute;
+    top: 450px;
+    left: 43%;
+    background: #fafafa;
+    color: #21ab9e;
+    outline: none;
+    border: 1px solid #21ab9e;
+    border-radius: 7px;
+    font-size: 23px;
+    width: 280px;
+    padding: 7px 20px;
+    font-family: cursive;
+    box-shadow:
+    5px -4px 15px rgba(0, 0, 0, 0.123),
+    -5px 4px 15px rgb(255, 255, 255),
+    inset -5px 4px 15px rgb(255, 255, 255),
+    inset 5px -4px 15px rgba(0, 0, 0, 0.090);
+}
+.ur-message{
+    color: rgb(94, 94, 94);
+    font-size: 18px;
+    font-family: cursive;
+    position: absolute;
+    top: 560px;
+    left: 30%;
+}
+.ur-message::after{
+    content: "*";
+    color: #21ab9e;
+    font-size: 15px;
+    font-family: cursive;
+    top: 0px;
+    right: -10px;
+    position: absolute;
+}
+.message{
+    position: absolute;
+    top: 600px;
+    left: 30%;
+    background: #fafafa;
+    color: #21ab9e;
+    outline: none;
+    border: 1px solid #21ab9e;
+    border-radius: 7px;
+    font-size: 23px;
+    width: 680px;
+    height: 300px;
+    padding: 7px 20px;
+    font-family: cursive;
+    box-shadow:
+    5px -4px 15px rgba(0, 0, 0, 0.123),
+    -5px 4px 15px rgb(255, 255, 255),
+    inset -5px 4px 15px rgb(255, 255, 255),
+    inset 5px -4px 15px rgba(0, 0, 0, 0.090);
+}
+.send-btn{
+    position: absolute;
+    top: 990px;
+    left: 30%;
+    background: #21ab9e;
+    color: #fafafa;
+    outline: none;
+    border: 1px solid #21ab9e;
+    border-radius: 7px;
+    font-size: 23px;
+    width: 725px;
+    height: 60px;
+    padding: 7px 20px;
+    font-family: cursive;
+    box-shadow:
+    5px -4px 15px rgba(0, 0, 0, 0.123),
+    -5px 4px 15px rgb(255, 255, 255),
+    inset -5px 4px 15px rgba(255, 255, 255, 0.164),
+    inset 5px -4px 15px rgba(0, 0, 0, 0.090);
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+.huge-line-btn{
+    background: #fafafa;
+    width: 950px;
+    height: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: -2px;
+    left: -950px;
+    transition: 0.4s ease-in-out;
+}
+.send-btn:hover .huge-line-btn{
+    left: 1400px;
+}
+.my-email{
+    position: absolute;
+    color: #21ab9e;
+    font-size: 34px;
+    font-family: cursive;
+    font-weight: 400;
+    right: 100px;
+    top: 700px;
+}
+.finall-email{
+    position: absolute;
+    color: rgb(94, 94, 94);
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 200;
+    right: 40px;
+    top: 760px;
+}
+.based{
+    position: absolute;
+    color: #21ab9e;
+    font-size: 34px;
+    font-family: cursive;
+    font-weight: 400;
+    right: 135px;
+    top: 860px;
+}
+.country{
+    position: absolute;
+    color: rgb(94, 94, 94);
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 200;
+    right: 135px;
+    top: 925px;
+}
+
+/* HERE START FOOTER */
+
+.footer{
+    width: 100%;
+    height: 220px;
+    position: relative;
+    background: rgb(94, 94, 94);
+}
+.icon{
+    color: #fafafa;
+    font-size: 36px;
+    font-family: cursive;
+    position: absolute;
+    text-decoration: none;
+    font-weight: 300;
+    left: 25%;
+    top: 40px;
+    transition: 0.3s ease-in-out;
+}
+.icon:hover{
+    color: #21ab9e;
+}
+#be{
+    left: 45%;
+}
+#dr{
+    left: 65%;
+}
+.fab{
+    right: -30px;
+    position: relative;
+}
+.rights{
+    color: #fafafa;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 200;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 20px;
+    left: 37%;
+}
+.de{
+    color: #21ab9e;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 200;
+    position: absolute;
+    bottom: 55px;
+    letter-spacing: 1px;
+    left: 45.5%;
+}
+@media (max-width: 700px){
+    nav ul{
+        display: none;
+    }
+    .join{
+        top: 6px;
+    }
+    .home-page{
+        height: 860px;
+    }
+    .home-photo{
+        width: 450px;
+        left: 30px;
+        top: 100px;
+    }
+    .my{
+        font-size: 19px;
+        top: 110px;
+        left: -120px;
+    }
+    .about{
+        font-size: 16px;
+        top: 130px;
+        left: -69px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .see-btn{
+        display: none;
+    }
+    .fas{
+        top: 730px;
+        font-size: 32px;
+        left: 240px;
+    }
+    .my-skills{
+        font-size: 33px;
+        left: 185px;
+    }
+    .line-under-skills{
+        width: 130px;
+        left: 185px;
+    }
+    .second-page{
+        height: 1600px;
+    }
+    .circle1{
+        left: 175px;
+    }
+    .circle2{
+        left: 175px;
+        top: 540px;
+    }
+    .circle3{
+        left: 175px;
+        top: 830px;
+    }
+    .circle4{
+        left: 175px;
+        top: 1110px;
+    }
+    .line-end{
+        top: 1390px;
+    }
+    .skills-end{
+        font-size: 18px;
+        top: 1450px;
+        left: 65px;
+    }
+    .continue{
+        font-size: 14px;
+        left: 140px;
+        top: 1520px;
+    }
+    .third-page{
+        height: 500px;
+        overflow: hidden;
+    }
+    .pack{
+        width: 350px;
+        left: 70px;
+    }
+    .mayol{
+        width: 180px;
+        top: 65px;
+        left: 380px;
+    }
+    .absl{
+        width: 180px;
+        left: -60px;
+        top: 271px;
+    }
+    .my-projects{
+        font-size: 33px;
+        left: 155px;
+        top: 70px;
+    }
+    .line-under-projects{
+        width: 180px;
+        left: 155px;
+        top: 130px;
+    }
+    .fourth-page{
+        height: 2000px;
+    }
+    .my-clients{
+        font-size: 33px;
+        left: 185px;
+    }
+    .caption{
+        font-size: 17px;
+        left: 115px;
+    }
+    .client1{
+        left: 140px;
+    }
+    .client2{
+        left: 140px;
+        top: 700px;
+    }
+    .client3{
+        left: 140px;
+        top: 1150px;
+    }
+    .client4{
+        left: 140px;
+        top: 1600px;
+    }
+    .fifth-page{
+        height: 1300px;
+    }
+    .contact-me{
+        font-size: 33px;
+        top: 80px;
+        left: 155px;
+    }
+    .line-under-contact{
+        width: 220px;
+        left: 155px;
+    }
+    .first-name{
+        top: 250px;
+    }
+    .first{
+        left: 140px;
+        width: 210px;
+    }
+    .last-name{
+        top: 400px;
+        left: 140px;
+    }
+    .last{
+        top: 450px;
+        left: 140px;
+        width: 210px;
+    }
+    .email-ad{
+        top: 550px;
+        left: 140px;
+    }
+    .email{
+        top: 600px;
+        left: 140px;
+        width: 210px;
+    }
+    .ur-message{
+        top: 700px;
+        left: 140px;
+    }
+    .message{
+        top: 750px;
+        left: 140px;
+        width: 210px;
+        height: 250px;
+    }
+    .send-btn{
+        width: 252px;
+        left: 140px;
+        top: 1050px;
+    }
+    .my-email{
+        font-size: 27px;
+        top: 1150px;
+        left: 20px;
+    }
+    .finall-email{
+        font-size: 21px;
+        left: 20px;
+        top: 1200px;
+    }
+    .based{
+        right: 45px;
+        font-size: 27px;
+        top: 1150px;
+    }
+    .country{
+        font-size: 21px;
+        right: 35px;
+        top: 1200px;
+    }
+    .icon{
+        font-size: 22px;
+        left: 40px;
+    }
+    #be{
+        top: 90px;
+        left: 40px;
+    }
+    #dr{
+        left: 250px;
+    }
+    .rights{
+        font-size: 14px;
+        left: 40px;
+    }
+    .de{
+        left: 170px;
+    }
+}
